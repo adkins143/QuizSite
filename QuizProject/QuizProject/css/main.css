@@ -1,0 +1,40 @@
+body{
+    background-color: #6B8E23;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 2%;
+	padding-right: 2%;
+	display: flex;
+	flex-direction: column;
+}
+
+header{
+	border-style: solid;
+	background-color: #8B4513;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main p{
+	text-indent: 50px;
+    border-style: solid;
+	background-color: #8B4513;
+	font-weight: bold;
+	padding-left: .5%;
+	padding-right: .5%;
+}
+
+form{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	margin-left: 700px;
+	margin-right: 700px;
+	margin-bottom: 15px;
+}
+
+footer{
+	border-style: solid;
+	background-color: #8B4513;
+	text-align: center;
+}
