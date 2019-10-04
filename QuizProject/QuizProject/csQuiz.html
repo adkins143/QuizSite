@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/quiz.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <title>Computer Science Quiz</title>
+</head>
+<body>
+    <main>
+        
+        <p>What does Println do?</p>
+        <fieldset>
+            <input type="radio" name="question1" class="q1" id="calcite" value="correct">
+            <label for="the answer">Print a line to the console.</label><br>
+            <input type="radio" name="question1" class="q1" id="luster" value="incorrect">
+            <label for="Creates a loop">Creates a loop.</label><br>
+            <input type="radio" name="question1" class="q1" id="hardness" value="incorrect">
+            <label for="calls a function">calls a function.</label><br>
+            <input type="radio" name="question1" class="q1" id="color" value="incorrect">
+            <label for="All the above">All the above.</label><br>
+            <span id="errorMess1"></span>
+        </fieldset>
+
+        <p>How do i set a to be a number?</p>
+        <fieldset>
+            <input type="radio" name="question2" id="aftershock" value="incorrect">
+            <label for="Float">Float</label><br>
+            <input type="radio" name="question2" id="epicenter" value="correct">
+            <label for="Int">Int</label><br>
+            <input type="radio" name="question2" id="foreshock" value="incorrect">
+            <label for="static">Static</label><br>
+            <input type="radio" name="question2" id="earthquake" value="incorrect">
+            <label for="Vector">Vector</label><br>
+            <span id="errorMess2"></span>
+        </fieldset>
+
+        <p>if int a = 10 and int b = 13 how do you add these together?</p>
+        <fieldset>
+            <input type="radio" name="question3" id="bubbles" value="incorrect">
+            <label for="int c = a * b">int c = a * b</label><br>
+            <input type="radio" name="question3" id="volcano" value="correct">
+            <label for="int c = a + b">int c = a + b</label><br>
+            <input type="radio" name="question3" id="frozen" value="incorrect">
+            <label for="int b = a + c">int b = a + c</label><br>
+            <input type="radio" name="question3" id="frags" value="incorrect">
+            <label for="int a = c + b">int a = c + b</label><br>
+            <span id="errorMess3"></span>
+        </fieldset>
+
+        <p>What data structure is first in first out?</p>
+        <fieldset>
+            <input type="radio" name="question4" id="farn" value="incorrect">
+            <label for="Array">Array</label><br>
+            <input type="radio" name="question4" id="furn" value="incorrect">
+            <label for="linked list">Linked List</label><br>
+            <input type="radio" name="question4" id="firn" value="correct">
+            <label for="Graph">Graph</label><br>
+            <input type="radio" name="question4" id="fern" value="incorrect">
+            <label for="Que">Que</label><br>
+            <span id="errorMess4"></span>
+        </fieldset>
+
+        <p>What is the quick method of software engineering?</p>
+        <fieldset>
+            <input type="radio" name="question5" id="one" value="correct">
+            <label for="Rapid Application Development">Rapid Application Development</label><br>
+            <input type="radio" name="question5" id="twenty" value="incorrect">
+            <label for="Waterfall">Waterfall</label><br>
+            <input type="radio" name="question5" id="ten" value="incorrect">
+            <label for="Agile">Agile</label><br>
+            <input type="radio" name="question5" id="six" value="incorrect">
+            <label for="Spiral">Spiral</label><br>
+            <span id="errorMess5"></span>
+        </fieldset>
+
+        <span id="change"></span><br>
+        <input type="button" id="show_results" value="Show Results">
+        <script src="scripts/quiz.js"></script>
+    </main>
+    <footer>&copy; Seth Colebaugh - CS2800 assignment #4 - Fall 2018</footer>
+</body>
+</html>

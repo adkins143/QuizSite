@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/quiz.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <title>Math Quiz</title>
+</head>
+<body>
+    <main>
+        
+        <p>Solve y = (3x+5)^2 using product rule.</p>
+        <fieldset>
+            <input type="radio" name="question1" class="q1" id="calcite" value="correct">
+            <label for="18x+30">18x+30</label><br>
+            <input type="radio" name="question1" class="q1" id="luster" value="incorrect">
+            <label for="9x-15">9x-15</label><br>
+            <input type="radio" name="question1" class="q1" id="hardness" value="incorrect">
+            <label for="3x+25">3x+25</label><br>
+            <input type="radio" name="question1" class="q1" id="color" value="incorrect">
+            <label for="18x-30">18x-30</label><br>
+            <span id="errorMess1"></span>
+        </fieldset>
+
+        <p>11 * 5</p>
+        <fieldset>
+            <input type="radio" name="question2" id="aftershock" value="incorrect">
+            <label for="44">44</label><br>
+            <input type="radio" name="question2" id="epicenter" value="correct">
+            <label for="55">55</label><br>
+            <input type="radio" name="question2" id="foreshock" value="incorrect">
+            <label for="110">110</label><br>
+            <input type="radio" name="question2" id="earthquake" value="incorrect">
+            <label for="50">50</label><br>
+            <span id="errorMess2"></span>
+        </fieldset>
+
+        <p>what is a^2+b^2=c^2</p>
+        <fieldset>
+            <input type="radio" name="question3" id="bubbles" value="incorrect">
+            <label for="quotient rule">Quotient Rule</label><br>
+            <input type="radio" name="question3" id="volcano" value="incorrect">
+            <label for="law of sin">Law Of Sin</label><br>
+            <input type="radio" name="question3" id="frozen" value="correct">
+            <label for="pythagorean theorem">Pythagorean Theorem</label><br>
+            <input type="radio" name="question3" id="frags" value="incorrect">
+            <label for="law of cosin">Law Of Cosin</label><br>
+            <span id="errorMess3"></span>
+        </fieldset>
+
+        <p>10+3=?</p>
+        <fieldset>
+            <input type="radio" name="question4" id="farn" value="incorrect">
+            <label for="12">12</label><br>
+            <input type="radio" name="question4" id="furn" value="incorrect">
+            <label for="15">15</label><br>
+            <input type="radio" name="question4" id="firn" value="correct">
+            <label for="13">13</label><br>
+            <input type="radio" name="question4" id="fern" value="incorrect">
+            <label for="17">17</label><br>
+            <span id="errorMess4"></span>
+        </fieldset>
+
+        <p>10^2 = ?</p>
+        <fieldset>
+            <input type="radio" name="question5" id="one" value="correct">
+            <label for="100">100</label><br>
+            <input type="radio" name="question5" id="twenty" value="incorrect">
+            <label for="200">200</label><br>
+            <input type="radio" name="question5" id="ten" value="incorrect">
+            <label for="50">50</label><br>
+            <input type="radio" name="question5" id="six" value="incorrect">
+            <label for="10">10</label><br>
+            <span id="errorMess5"></span>
+        </fieldset>
+
+        <span id="change"></span><br>
+        <input type="button" id="show_results" value="Show Results">
+        <script src="scripts/quiz.js"></script>
+    </main>
+    <footer>&copy; Seth Colebaugh - CS2800 assignment #4 - Fall 2018</footer>
+</body>
+</html>
