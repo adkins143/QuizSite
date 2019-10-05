@@ -1,5 +1,5 @@
 body{
-    background-color: #6B8E23;
+    background-color: #c8d6db;
 	font-family: 'Montserrat', sans-serif;
 	padding-left: 2%;
 	padding-right: 2%;
@@ -9,7 +9,7 @@ body{
 
 header{
 	border-style: solid;
-	background-color: #8B4513;
+	background-color: #6da2b5;
 	margin-bottom: 5px;
 	display: flex;
 	justify-content: center;
@@ -18,8 +18,7 @@ header{
 
 main p{
 	text-indent: 50px;
-    border-style: solid;
-	background-color: #8B4513;
+	background-color: #c8d6db;
 	font-weight: bold;
 	padding-left: .5%;
 	padding-right: .5%;
@@ -34,8 +33,7 @@ form{
 }
 
 footer{
-	border-style: solid;
-	background-color: #8B4513;
+	background-color: #c8d6db;
 	text-align: center;
 }
 
@@ -44,7 +42,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #6da2b5;
 }
 
 li {
