@@ -1,0 +1,25 @@
+body{
+    background-color: #DEB887;
+}
+
+fieldset{
+	width: 30%;
+}
+
+#change{
+	font-weight: bold;
+	padding-left: 46%;
+	color: green;
+}
+
+#show_results{
+	display: block;
+	margin: 0 auto;
+}
+
+footer{
+	border-style: solid;
+	background-color: #DEB887;
+	text-align: center;
+	margin-top: 15px;
+}
