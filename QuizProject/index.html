@@ -23,8 +23,22 @@
     <main>
     <p>This is a student project for the class CEG 3120. Our project is a website that helps students by providing them study guides for a variety of subjects.</p>
         <p>During our time in this class, it is our duty to constantly update this site, adding helpful information, and making the site as optimal as possible through GitHub.</p>
+    <p><br>Enter First and Last name, then press submit:</p>
     </main>
 	
+    <!--This is just a mock up of student entry-->
+    
+    <form id="frm1" action="/action_page.php">
+    First name: <input type="text" name="fname"><br>
+    Last name: <input type="text" name="lname"><br><br>
+    <input type="button" onclick="myFunction()" value="Submit">
+    </form>
+
+    <script>
+    function myFunction() {
+        document.getElementById("frm1").reset();
+    }
+    </script>
     <!--<form>-->
 	
 	<!--
