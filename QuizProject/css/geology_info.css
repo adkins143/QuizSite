@@ -37,3 +37,16 @@ footer{
 	text-align: center;
 }
 
+
+iframe{
+    float: left;
+    padding-left: 5%;
+	padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+form{
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
