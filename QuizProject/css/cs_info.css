@@ -1,24 +1,31 @@
 body{
-    background-color: #77DBB8;
+   /* background-color: #77DBB8;*/
 	font-family: 'Montserrat', sans-serif;
 	padding-left: 2%;
 	padding-right: 2%;
 	display: flex;
 	flex-direction: column;
+	
+background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
+background-size: 110px 200px;
+background-repeat: repeat-x;
 }
 
 header{
-	border-style: solid;
-	background-color: #F74D4D;
+	/*border-style: solid;*/
+	background-color: transparent;
 	margin-bottom: 5px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-radius: 25px;
 }
 
 main p{
 	text-indent: 50px;
-	background-color: #77DBB8;
+	background-color: transparent;
 	font-weight: bold;
 	padding-left: .5%;
 	padding-right: .5%;
@@ -33,7 +40,7 @@ form{
 }
 
 footer{
-	background-color: #77DBB8;
+	background-color: transparent;
 	text-align: center;
 }
 
